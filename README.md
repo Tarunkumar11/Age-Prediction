@@ -9,7 +9,7 @@ estimation,age progression/regression etc
 
 How I classify the dataset:
 Because i was going to use this model for mobile appliction for childrens.So the main focus of me to predict the age 1-18 with great acuuracy.
-so from 100+ classes of dataset i combined the classes and make them 6 clsess. Before this i classify them between male and female.So the 
+so from 100+ classes of dataset i combined the classes and make them 7 clsess. Before this i classify them between male and female.So the 
 final look of the dataset was like that:
 train:
      male:
@@ -18,15 +18,18 @@ train:
         (11-13)
         (14 -15)
         (16-17)
+        (18-20)
         20+  
     Female:
         (1-5)
         (6-10)
         (11-15)
         (15 -17)
+        (18-20)
         20+
-        
-CATEGORIES = ["1-5","11-13","14-15","16-17","20+","6-10"]
+       
+  
+CATEGORIES = ["1-5","11-13","14-15","16-17","18-20","20+","6-10"]
 
 This was the same for testing dataset too.
 
