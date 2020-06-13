@@ -25,7 +25,9 @@ train:
         (11-15)
         (15 -17)
         20+
+        
 CATEGORIES = ["1-5","11-13","14-15","16-17","20+","6-10"]
+
 This was the same for testing dataset too.
 
 Designing the of Model:
